@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Tasks from "./components/Tasks";
 import AddTask from "./components/AddTask";
-import { v4 } from "uuid";
 import { use } from "react";
 import Title from "./components/Title";
 
