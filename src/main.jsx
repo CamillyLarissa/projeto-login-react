@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import TaskPage from "./pages/TaskPage.jsx";
+import Cadastrar from "./pages/Cadastrar.jsx";
 
 const router = createBrowserRouter([
   {
@@ -11,8 +11,8 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/task",
-    element: <TaskPage />,
+    path: "/cadastro",
+    element: <Cadastrar />,
   },
 ]);
 
